@@ -1,2 +1,2 @@
-class Dog < Base.connection.execute(sql)
+class Dog < ActiveRecord::Base
 end
